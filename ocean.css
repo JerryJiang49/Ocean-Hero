@@ -15,10 +15,20 @@ a {
 .container {
     background: white;
     margin: 0 auto;
+    width: 2000px;
+}
+
+
+.navbar {
+    height: 75px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
+}
+
+.navbar-brand {
+  font-size: 30px;
 }
 
 .card {
@@ -100,7 +110,7 @@ h3 {
 }
 
 .nav-item {
-    font-size: 12px;
+    font-size: 25px;
 }
 
 .selected {
