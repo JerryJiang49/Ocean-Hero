@@ -96,8 +96,6 @@ img {
 
 .nav-item {
     font-size: 25px;
-    margin-right: 40px;
-    transition: 5s;
 }
 
 .carousel-inner img {
@@ -110,8 +108,4 @@ img {
     color: black;
     font-weight: bolder;
     background-color: cadetblue;
-}
-
-.nav-item:hover {
-    border-color: rgb(200,102,204);
 }
