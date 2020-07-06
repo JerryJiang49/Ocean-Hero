@@ -1,5 +1,6 @@
 body {
-    background-image:  linear-gradient(to right, deepskyblue, midnightblue);;
+    background-image:  linear-gradient(to right, deepskyblue, midnightblue);
+    padding-top: 65px;
 }
 
 a {
@@ -12,7 +13,7 @@ h1 {
 
 .jumbotron {
     background-image: url("http://2.bp.blogspot.com/_HOCuXB2IC34/TR2rWjhn0jI/AAAAAAAAG0E/OxZc5jXRqAE/s1600/35+sea+creature+%2528www.cute-pictures.blogspot.com%2529.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -21,9 +22,9 @@ h1 {
     text-align: center;
 }
 
-
 .navbar {
     height: 75px;
+    min-width: 200px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -34,7 +35,6 @@ h1 {
     font-size: 30px;
     margin-right: 50px;
 }
-
 
 p {
     text-align: center;
@@ -47,12 +47,11 @@ p {
 
 #title {
     font-family: 'Kaushan Script', cursive;
-    width: 50vw;
     margin: 0 auto;
     text-align: center;
     color: white;
     background-color: rgba(95,158,160,0.7);
-    font-size: 10vw;
+    font-size: 100px;
 }
 
 .navbar-light .navbar-toggler {
@@ -69,9 +68,7 @@ p {
 }
 
 h3 {
-    font-size: 1vw;
-    width: 50vw;
-    margin: 0 auto;
+    font-size: 1em;
     text-align: center;
     color: white;
     background-color: rgba(95,158,160,0.7);
@@ -90,20 +87,42 @@ img {
     width: 500px;
 }
 
+@media screen and (min-width: 601px) {
+    #title {
+        font-size: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.example {
+        font-size: 30px;
+    }
+}
+
 .navbar-light {
     background-image: linear-gradient(to right, deepskyblue, midnightblue);
 }
 
 .nav-item {
     font-size: 25px;
-    margin-right: 40px;
+    margin-right: 30px;
     transition: 5s;
+}
+
+@media (max-width:480px) {
+    body > .navbar-default {
+        background-color: #2c3e50;
+    }
 }
 
 .carousel-inner img {
     margin: auto;
     width: 1100px !important;
     height: 600px !important;
+}
+
+.carousel-inner > .item > img {
+    min-width: 100%;
 }
 
 .selected {
@@ -114,4 +133,14 @@ img {
 
 .nav-item:hover {
     border-color: rgb(200,102,204);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 45px 0 20px;
+}
+
+h6 {
+    padding-top: 50px;
 }
