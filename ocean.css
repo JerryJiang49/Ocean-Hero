@@ -1,6 +1,5 @@
 body {
     background-image:  linear-gradient(to right, deepskyblue, midnightblue);
-    padding-top: 65px;
 }
 
 a {
@@ -20,11 +19,6 @@ h1 {
 .container-fluid {
     background: white;
     text-align: center;
-}
-
-.navbar {
-    height: 75px;
-    min-width: 200px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
